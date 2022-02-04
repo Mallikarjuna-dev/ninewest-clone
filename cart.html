@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Bag | Nine West</title>
+    <link rel = "icon" href = "https://lh3.googleusercontent.com/vOkdv6GWvUCyLLjzjSUrewsZRJHylWCMhT9eYX6q8AEMZ_Tfk942Ur7OkAmobVZ2Ag"  type = "image/x-icon">
+    <link rel="stylesheet" href="./Style/cart.css">
+    <link rel="stylesheet" href="./Style/navbar.css">
+    <link rel="stylesheet" href="./Style/footer.css">
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" 	crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="rrnavbar"></div>
+    <div class="rshoppingbag"><p>SHOPPING BAG</p></div>
+    <div id="rcartstatic">
+        <div class="rproducts"><p>Products</p></div>
+        <div class="rprice"><p>Price</p></div>
+        <div class="rquantity"><p>Quantity</p></div>
+        <div class="rtotal"><p>Total</p></div>
+    </div>
+    <div id="rcartdyanamic"></div>
+    <div class="rbigline">
+        <div class="rinsidebigline">
+            <p>Subtotal :</p>
+            <p id="rsubtotalprice"></p>
+        </div>
+    </div>
+    <div class="rcartbutton">
+        <a href="index.html">CONTINUE SHOPPING</a>
+        <button class="rcheckout">CHECKOUT</button>
+    </div>
+    <div id="rrfooter">
+        <!-- FOOTER -->
+    </div>
+</body>
+</html>
+<script src="./Scripts/cart.js"></script>
+<script>
+    
+</script>
+<script type="module">
+
+    import navbar from "./components/navbar.js";
+    document.querySelector("#rrnavbar").innerHTML=navbar();
+
+    document.querySelector("#rsigninhover").addEventListener("click",function(){
+        window.location.href="signin.html"
+    })
+
+    import footer from "./components/footer.js";
+    document.querySelector("#rrfooter").innerHTML=footer();
+</script>

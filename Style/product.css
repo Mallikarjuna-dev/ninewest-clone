@@ -1,0 +1,351 @@
+/* *{
+    margin: 0px;
+} */
+/* #navbar{
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+} */
+#footer{
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+/* container Product Area  */
+
+#container{
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+/* first Box  */
+
+#contTopflex{
+    display: flex;
+    gap: 10px;
+    width: 95%;
+    margin: auto;
+    line-height: 45px;
+    /* border: 1px solid black; */
+}
+
+#contTopflex > div:nth-child(1){
+    flex: 1;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#contTopflex > div:nth-child(1) > p{
+    font-size: 18px;
+}
+#contTopflex > div:nth-child(1) > p:hover{
+    color:  gray;
+    cursor: pointer;
+}
+#contTopflex > div:nth-child(1) > h3:hover{
+    color:  gray;
+    cursor: pointer;
+
+    
+}
+
+
+#contTopflex > div:nth-child(2){
+    flex: 1;
+    /* border: 1px solid blue; */
+
+}
+#imgtop1 {
+    width: 80%;
+}
+
+
+/* 2nd Box  */
+
+#nameflex{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+}
+
+
+#showBoxmain{
+    margin-top: 50px;
+
+}
+#showBox{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#one, #two, #three{
+    flex: 1;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#one >img, #two >img, #three >img{
+   width: 100%;
+    /* border: 1px solid black; */
+}
+#one >div, #two >div, #three >div{
+    /* width: 100%; */
+     /* border: 1px solid black; */
+     height: 40px;
+     font-size: 20px;
+     padding-top: 15px;
+     background-color: rgb(228,235,243);
+     font-weight: bolder;
+     margin-top: -5px;
+ }
+
+
+ #secondbox1{
+    /* border: 1px solid black; */
+    /* height: 600px; */
+    /* margin-top: 40px; */
+    display: flex;
+    text-align: center;
+}
+
+#secondbox1 > div > img {
+    width: 85%;
+}
+#secondbox2{
+    /* border: 1px solid black; */
+    /* height: 800px; */
+    display: flex;
+    text-align: center;
+}
+
+#secondbox2 > div > img {
+    width: 85%;
+}
+
+
+#secondbox3{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+#secondbox3 > div > img {
+    width: 85%;
+}
+
+#secondbox4{
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+}
+
+#secondbox4 > div > img {
+    width: 85%;
+}
+#secondbox5{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+#secondbox5 > div > img {
+    width: 85%;
+}
+
+
+#showBox1{
+    /* border: 1px solid black; */
+    display: flex;
+    /* gap: 10px; */
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#oneone{
+    margin: 0px;
+    width: 20%;
+}
+
+#twotwo{
+    width: 80%;
+
+}
+
+#oneone > img{
+    /* margin-left: .5%; */
+    padding-left: 1.01%;
+    width: 98.99%;
+    height: 99%;
+    /* border: 1px solid black; */
+}
+
+#twotwo > img {
+    width: 99.7%;
+    height: 99%;
+    /* margin-left: -2px; */
+    /* border: 1px solid black; */
+
+}
+
+#shownamedown{
+    border-bottom: 2px solid black;
+    display: flex;
+    /* gap: 10px; */
+    width: 94.5%;
+    margin: auto;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: rgb(193,218,251);
+    margin-top: -5px;
+
+
+}
+#shownamedown > div > h2{
+    margin: 0px;
+}
+
+
+#rightbox {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 350px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#rightbox > div > p {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+#rightbox > div > img {
+    width: 80%;
+}
+
+
+
+/* video wale poster ke baad  */
+
+#downposter{
+    /* border: 1px solid black; */
+    /* height: 300px; */
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    
+}
+.oneimgaa{
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.oneimgaa > img{
+    width: 100%;
+
+}
+.twoimgbb{
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.twoimgbb{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+.twoimgbb > div > img {
+    width: 85%;
+}
+
+
+#shownamedown1{
+    border-bottom: 2px solid black;
+    display: flex;
+    /* gap: 10px; */
+    width: 94.5%;
+    margin: auto;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: rgb(193,218,251);
+    margin-top: 50px;
+
+
+}
+
+.twoimgbbcc{
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.twoimgbbcc{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+.twoimgbbcc > div > img {
+    width: 85%;
+}
+
+
+
+.twoimgdd{
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.twoimgdd{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+.twoimgdd > div > img {
+    width: 85%;
+}
+
+.twoimgee{
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.twoimgee{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    text-align: center;
+}
+
+.twoimgee > div > img {
+    width: 85%;
+}
+
+.morecolors{
+    font-size: 12px;
+    color: #777;
+    text-decoration: underline;
+}
+
+
+
+
+

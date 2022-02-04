@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Nine West | Checkout</title>
+    <link rel = "icon" href = "https://lh3.googleusercontent.com/vOkdv6GWvUCyLLjzjSUrewsZRJHylWCMhT9eYX6q8AEMZ_Tfk942Ur7OkAmobVZ2Ag"  type = "image/x-icon">
+    <link rel="stylesheet" href="./Style/payment.css">
+</head>
+<body>
+    <div id="rcmain">
+        <div id="rcleft">
+            <div id="rcfirstdiv">
+                <a href="index.html"><img src="https://cdn.shopify.com/s/files/1/0267/3737/7324/files/NineWest_240x40_ec01f287-6403-4e74-9564-213d2f46089b_400x.jpg?v=1585845052" alt=""></a>
+                <div>
+                    <a href="cart.html"><p>Shopping Bag  > </p></a>
+                    <a href="checkout.html"><p>Information  > </p></a>
+                    <a href="shipping.html"><p >Shipping  > </p></a>
+                    <a href="payment.html"><p class="rInformation">Payment</p></a>
+                </div>
+            </div>
+            <div id="rcseconddiv">
+                <div class="rscheck"><p> Please Check this address to be sure it's correct</p></div>
+                <div class="rsinsideseconddiv">
+                    <div class="rsinside1">
+                        <div class="rscommon"><p>Contact</p></div>
+                        <div class="rsspecial"><p>rishabhg.1996@gmail.com</p></div>
+                        <div id="rstomove"><p>Change</p></div>
+                    </div>
+                    <div class="rsline"></div>
+                    <div class="rsinside1">
+                        <div class="rscommon"><p>Ship To</p></div>
+                        <div class="rsspecial"><p>WZ 1598 G/1 Nangal Raya,New Delhi, Delhi, India 110046</p></div>
+                        <div id="rstomove"><p >Change</p></div>
+                    </div>
+                    <div class="rsline"></div>
+                    <div class="rsinside1">
+                        <div class="rscommon"><p>Method</p></div>
+                        <div class="rsspecial"><p>Free Ground Shipping <b>FREE</b></p></div>
+                        <div id="rstomove"><p >Change</p></div>
+                    </div>
+                </div>
+            </div>
+            <div id="rcthirddiv">
+                <p class="rsshipping">Payment</p>
+                <p class="rpaysent">All transactions are secure and encrypted.</p>
+                <div class="rsname">
+                    <div class="rsnameinside">
+                        <div>
+                            <input type="radio">
+                            <p>Credit Card</p>
+                        </div>
+                    </div>
+                    <div id="rsnameinside">
+                        <div>
+                            <input type="text" placeholder="Card Number">
+                            <input type="text" placeholder="Name">
+                            <div>
+                                <input type="text" placeholder="MM/YY"><input type="text" placeholder="CVV">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="rsnameinside">
+                        <div>
+                            <input type="radio">
+                            <p>Amazon Pay</p>
+                        </div>
+                    </div>
+                    <div id="rsnameinside">
+                        <div>
+                            <input type="text" placeholder="Amazon UPI">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="rcthirddiv">
+                <p class="rsshipping">Billing Address</p>
+                <p class="rpaysent">Select the address that matches your card or payment method.</p>
+                <div class="rsname">
+                    <div class="rsnameinside">
+                        <div>
+                            <input type="radio">
+                            <p>Same as Shipping Address</p>
+                        </div>
+                    </div>
+                    <div class="rsnameinside">
+                        <div>
+                            <input type="radio">
+                            <p>Use a Different Billing Address</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="rpremmember">Remmember Me</p>
+                <div class="rpinside">
+                    <div>
+                        <input type="checkbox">
+                        <p>Save my information for a Faster Checkout</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rcreturn">
+                <a href="shipping.html"><p>< Return to Shipping</p></a>
+                <button id="rpaynow">Pay Now</button>
+            </div>
+            <div class="rcline"></div>
+            <div class="rcpolicy">
+                <a href="#">Refund Policy</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div id="rcright">
+            <div></div>
+            <div>
+                <!-- <div class="rcnewline"></div> -->
+                <div class="rcgift">
+                    <input id="discount" type="text" placeholder="Gift Card or Discount code">
+                    <button id="applydiscount">Apply</button> 
+                </div>
+                <div class="rcnewline"></div>
+                <div>
+                    <div class="rcsum">
+                        <p>Subtotal</p>
+                        <p id="rctotal"></p>
+                    </div>
+                    <div class="rcsum">
+                        <p>Discount </p>
+                        <p class="rcdiscount"></p>
+                    </div>
+                    <div class="rcsum">
+                        <p>Shipping </p>
+                        <p class="rctotal">Free</p>
+                    </div>
+                    <div class="rcnewline"></div>
+                    <div class="rcsum">
+                        <p>Total</p>
+                        <div>
+                            <p>$</p>
+                            <p id="rfinaltotal"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./Scripts/payment.js"></script>
+<script>
+    document.querySelector("#rpaynow").addEventListener("click",function(){
+        window.location.href="thankyou.html"
+    })
+</script>

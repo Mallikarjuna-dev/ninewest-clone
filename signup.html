@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | NINE WEST</title>
+    <link rel = "icon" href = "https://lh3.googleusercontent.com/vOkdv6GWvUCyLLjzjSUrewsZRJHylWCMhT9eYX6q8AEMZ_Tfk942Ur7OkAmobVZ2Ag"  type = "image/x-icon">
+    <link rel="stylesheet" href="./Style/signin.css">
+    <link rel="stylesheet" href="./Style/navbar.css">
+    <link rel="stylesheet" href="./Style/footer.css">
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" 	crossorigin="anonymous"></script>
+    <style>
+        #rrfooter{
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div id="rrnavbar"></div>
+    <div id="rsignin">
+        <p class="rcustomerlogin">CUSTOMER LOGIN</p>
+        <div id="rlogodiv">
+            <p>USE YOUR SOCIAL ACCOUNT TO SIGN IN</p>
+            <div id="rfga">
+                <div><i id="rfacebook"class="fab fa-facebook-square"></i></div> 
+                <div><i id="rgoogleplus"class="fab fa-google-plus-square"></i></div>
+                <div id="ramazondiv"><i id="ramazon"class="fab fa-amazon"></i></div>
+            </div>
+        </div>
+        <div id="rform">
+            <div id="rinputpart">
+                <div><label for="">FIRST NAME</label></div>
+                <div><input type="text" placeholder="First Name"></div>
+                <div><label for="">LAST NAME</label></div>
+                <div><input type="text" placeholder="Last Name"></div>
+                <div><label for="">EMAIL ADDRESS*</label></div>
+                <div><input type="text" id="email" placeholder="Email Address*"></div>
+                <div><label for="">PASSWORD*</label></div>
+                <div><input type="text" id="password" placeholder="Password"></div>
+                <div id="rforgot">
+                    <button>SIGN UP</button>
+                    <p>* Indicates a Required field</p>
+                </div>
+                <p>RETURNING CUSTOMER?<a class="rsignupwrite" href="signin.html">LOGIN</a></p>
+            </div>
+            
+            
+        </div>
+
+    </div>
+    <div id="rrfooter">
+        <!-- FOOTER -->
+    </div>
+</body>
+
+</html>
+<script src="./Scripts/signup.js"></script>
+<script src="https://kit.fontawesome.com/683b4b40e3.js" 	crossorigin="anonymous"></script>
+<script type="module">
+
+import navbar from "./components/navbar.js";
+    document.querySelector("#rrnavbar").innerHTML=navbar();
+
+    document.querySelector("#rsigninhover").addEventListener("click",function(){
+        window.location.href="signin.html"
+    })
+    import footer from "./components/footer.js";
+    document.querySelector("#rrfooter").innerHTML=footer();
+</script>

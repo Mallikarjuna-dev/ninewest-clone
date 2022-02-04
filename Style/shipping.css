@@ -1,0 +1,229 @@
+body{
+    font-family: "FuturaLTPro-Book",Sans-Serif!important;
+    color: grey;
+}
+#rcmain{
+    display: flex;
+    width: 100%;
+    
+}
+
+/* LEFT BOX */
+#rcleft{
+    flex: 3.5;
+    /* border: 1px solid red; */
+}
+#rcfirstdiv{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+}
+#rcfirstdiv div{
+    display: flex;
+}
+#rcfirstdiv div a{
+    text-decoration: none;
+    color: rgba(170, 9, 9, 0.719);
+    font-size: 14px;
+    margin-right: 1.5%;
+}
+.rInformation{
+    color: black;
+}
+
+#rcseconddiv{
+    width: 80%;
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.rscheck{
+    border: 2px solid black;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 16px;
+}
+.rsinsideseconddiv{
+    margin-top: 3%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.rsline{
+    border-top: .5px solid lightgrey;
+    width: 95%;
+    margin: auto;
+}
+.rsinside1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+/* .rsinside1 div{
+    width: 33%;
+} */
+.rsspecial{
+    width: 50%;
+    margin-left: 10%;
+}
+.rscommon{
+    margin-left: 2%;
+}
+#rstomove{
+    /* border: 1px solid red; */
+    cursor: pointer;
+    color: rgba(170, 9, 9, 0.719);
+    margin-left: 18%;
+}
+
+#rcthirddiv{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+.rsshipping{
+    font-size: 18px;
+}
+.rsname{
+    border: .5px solid lightgray;
+    border-radius: 5px;
+}
+.rsnameinside{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.rsnameinside div{
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    margin-left: 2%;
+}
+.rsnameinside div input{
+    color: rgba(170, 9, 9, 0.719);
+    margin-top: 4%;
+    
+}
+.rsnameinside div p{
+    margin-left: 1%;
+    font-size: 15px;
+}
+.rsblack{
+    color: black;
+    font-size: 15px;
+    margin-right: 2%;
+}
+.rcreturn{
+    width: 80%;
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rcreturn a{
+    text-decoration: none;
+    align-self: center;
+}
+.rcreturn a p{
+    margin-top: 5%;
+    color: rgba(170, 9, 9, 0.719);
+    font-size: 14px;
+}
+.rcreturn button{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 1.5%;
+    border-radius: 5px;
+    border: none;
+    /* font-weight: bold; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.rcline{
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 80%;
+    border-top: 1px solid lightgray;
+}
+.rcpolicy{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.rcpolicy a{
+    text-decoration: none;
+    color: rgba(170, 9, 9, 0.719);
+    font-size: 14px;
+    margin-right: 2%;
+}
+
+/* RIGHT BOX */
+#rcright{
+    flex: 3;
+    background-color: rgb(250,250,250);
+    /* border: 1px solid teal; */
+}
+.rcnewline{
+    border-top: 1px solid lightgray;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+
+margin-bottom: 4%;}
+.rcgift{
+    width: 75%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rcgift input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border:.5px solid grey;
+}
+.rcgift button{
+    width: 25%;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(200,200,200);
+    border: none;
+}
+.rcgift button:hover{
+    transition: .5s;
+    background-color: black;
+}
+.rcsum{
+    font-size: 15px;
+    width: 75%;
+    margin: auto;
+    margin-top: -2%;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.rcsum div{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+#rctotal{
+    color: black;
+    font-weight: bold;
+}
+.rctotal{
+    color: black;
+}

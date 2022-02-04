@@ -1,0 +1,129 @@
+body{
+    margin: 0% .2%;
+    font-family: "FuturaLTPro-Book",Sans-Serif!important;
+}
+#rsignin{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+.rcustomerlogin{
+    font-size: 25px;
+}
+#rlogodiv{
+    /* border: 1px solid teal; */
+    text-align: center;
+}
+#rlogodiv p{
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+}
+#rfga{
+    display: flex;
+    justify-content: center;
+}
+#rfga div{
+    /* border: 1px solid red; */
+    width: 4%;
+    height: 50px;
+}
+
+#ramazondiv{
+    margin-top: 2px;
+    border-radius: 10px;
+    background-color: rgb(255,204,102);
+    border: 5px solid white;    
+}
+#ramazondiv:hover{
+    cursor: pointer;
+    background-color: rgb(80, 211, 211);
+    transition: .8s;
+
+}
+#rfacebook{
+    padding: 5px;
+    font-size: 55px;
+    color: rgb(59,89,152);
+    cursor: pointer;
+}
+#rgoogleplus{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 55px;
+    color: rgb(221,75,57);
+    
+}
+#rgoogleplus:hover,#rfacebook:hover{
+    color: rgb(80, 211, 211);
+    transition: .8s;
+}
+#ramazon{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#rform{
+    /* border: 1px solid red; */
+    width: 50%;    
+    margin: auto;
+    margin-top: 1.5%;
+}
+#rinputpart div{
+    margin-top: 1%;
+}
+#rinputpart div label{
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+}
+#rinputpart div input{
+    width: 90%;
+    height: 25px;
+    border: 1px solid lightgrey;
+    margin-bottom: 1.5%;
+}
+::-webkit-input-placeholder{
+    color: lightgray;
+}
+#rforgot{
+    display: flex;
+    justify-content: start;
+}
+#rforgot button{
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 25%;
+    font-size: 16px;
+    height: 30px;
+}
+#rforgot button:hover{
+    background-color: grey;
+    transition: .8s;
+    cursor: pointer;
+}
+#rforgot p{
+    margin-left: 5%;
+    font-size: 12px;
+    margin-top: 2%;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+#rforgot p:hover{
+    color: gray;
+    transition: .8s;
+}
+#rinputpart p{
+    font-size: 12px;
+    color: black;
+}
+#rinputpart p a{
+    color: black;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#rinputpart p a:hover{
+    color: gray;
+    transition: .8s;
+}
