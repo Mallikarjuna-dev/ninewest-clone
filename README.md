@@ -32,9 +32,7 @@ We have Created this clone Website by using Media Queries which make our project
   
   <h3>Home page</h3>
   
-  
-![Screenshot (460)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (460).png)
-<!--   "C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (460).png" -->
+![Screenshot (460)](https://user-images.githubusercontent.com/76250603/158766210-02b9fe74-8cc2-4b01-8e1a-2d708fe42f07.png)
   
   
   <h3>Products page</h3>
