@@ -1,3 +1,71 @@
+<h1>NINE WEST</h1>
+Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScript Tool only. We have created the Clone website of NineWest.com. out Team Name is "Team- NINEWEST" and we are 6 members but only 3 people worked on it Rishabh Gupta, Mallikarjuna Annigeri and Sharan M.
+<h3>Features:</h3>
+<ul>
+  <li>SignIn / SignUp</li>
+  <li>Index Page</li>
+  <li>Product's Page</li>
+  <li>Product Detail Page</li>
+  <li>Shopping Bag Page</li>
+  <li>Cart page</li>
+  <li>Payment page</li>
+</ul>
+<h3>Tech Stack:</h3>
+HTML | CSS | Javascript | AdvancedJS
+
+We have Created this clone Website by using Media Queries which make our project Responsive. Our Main motive of clonning the NineWest.com was that to create proper functionality and its designing like:
+i) Local Storage : Which was very helpful to manage lot of data
+ii) Async JS: Which helped us to show the slidshow and timers
+iii) Hover Effect: styling most of the buttons, text and images.
+
+<h3>Areas of responsibility:</h3>
+<ul>
+<li>Developed the products and Tariff page. </li>
+<li>Integrated the wishlist and cart page. </li>
+<li>Developed the Homepage.</li>
+ <h3>Contributors:</h3>
+  <ul>
+    <li>Vinit Kumar</li>
+    <li>Mallikarjuna Annigeri</li>
+    <li>Rishabh Gupta</li>
+    <li>Akshay jagtap</li>
+  </ul>
+ <h3>Screenshots</h3>
+  
+  <h3>Home page</h3>
+  
+  
+![Screenshot (460)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (460).png)
+<!--   "C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (460).png" -->
+  
+  
+  <h3>Products page</h3>
+  
+  
+![Screenshot (461)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (461).png)
+  
+  
+  <h3>Product details page</h3>
+  
+  
+![Screenshot (462)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (462).png)
+  
+  
+  <h3>Cart page</h3>
+  
+  
+![Screenshot (463)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (463).png)
+
+
+<hr/>
+
+<p>Steps to run our Website:- <strong>Just click on our deploy link to run our website</strong?</p>
+  <p>Deploy link:- <a href="https://heuristic-lewin-ff60a9.netlify.app/">Click Here</a></p>
+  
+<br/>
+
+
+
 # NINE_WEST
 
 Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScript Tool only. We have created the Clone website of NineWest.com. out Team Name is "Team- NINEWEST" and we are 6 members but only 3 people worked on it Rishabh Gupta, Mallikarjuna Annigeri and Sharan M.
