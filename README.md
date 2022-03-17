@@ -38,24 +38,26 @@ We have Created this clone Website by using Media Queries which make our project
   <h3>Products page</h3>
   
   
-![Screenshot (461)](htUsers\Mallikarjuna\Pictures\Screenshots\Screenshot (461).png)
+![Screenshot (461)](https://user-images.githubusercontent.com/76250603/158768001-454394eb-9461-43bf-953f-e88b700873a8.png)
   
   
   <h3>Product details page</h3>
   
   
-![Screenshot (462)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (462).png)
+![Screenshot (462)](https://user-images.githubusercontent.com/76250603/158768123-d43383be-57a0-48b5-8e4c-7cedbeb01004.png)
   
   
   <h3>Cart page</h3>
   
   
-![Screenshot (463)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (463).png)
+![Screenshot (463)](https://user-images.githubusercontent.com/76250603/158768198-f52d50bb-52db-42f8-a75c-0e40df8f7c62.png)
+
 
 
 <hr/>
 
 <p>Steps to run our Website:- <strong>Just click on our deploy link to run our website</strong?</p>
+  
   <p>Deploy link:- <a href="https://heuristic-lewin-ff60a9.netlify.app/">Click Here</a></p>
   
 <br/>
