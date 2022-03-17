@@ -13,16 +13,14 @@ Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScri
 <h3>Tech Stack:</h3>
 HTML | CSS | Javascript | AdvancedJS
 
-We have Created this clone Website by using Media Queries which make our project Responsive. Our Main motive of clonning the NineWest.com was that to create proper functionality and its designing like:
-i) Local Storage : Which was very helpful to manage lot of data
-ii) Async JS: Which helped us to show the slidshow and timers
-iii) Hover Effect: styling most of the buttons, text and images.
+<br/>
 
-<h3>Areas of responsibility:</h3>
-<ul>
-<li>Developed the products and Tariff page. </li>
-<li>Integrated the wishlist and cart page. </li>
-<li>Developed the Homepage.</li>
+We have Created this clone Website by using Media Queries which make our project Responsive. Our Main motive of clonning the NineWest.com was that to create proper functionality and its designing like:
+<p>i) Local Storage : Which was very helpful to manage lot of data</p>
+<p>ii) Async JS: Which helped us to show the slidshow and timers</p>
+<p>iii) Hover Effect: styling most of the buttons, text and images.</p>
+
+
  <h3>Contributors:</h3>
   <ul>
     <li>Vinit Kumar</li>
@@ -42,7 +40,7 @@ iii) Hover Effect: styling most of the buttons, text and images.
   <h3>Products page</h3>
   
   
-![Screenshot (461)](C:\Users\Mallikarjuna\Pictures\Screenshots\Screenshot (461).png)
+![Screenshot (461)](htUsers\Mallikarjuna\Pictures\Screenshots\Screenshot (461).png)
   
   
   <h3>Product details page</h3>
@@ -65,7 +63,7 @@ iii) Hover Effect: styling most of the buttons, text and images.
 <br/>
 
 
-
+<!-- 
 # NINE_WEST
 
 Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScript Tool only. We have created the Clone website of NineWest.com. out Team Name is "Team- NINEWEST" and we are 6 members but only 3 people worked on it Rishabh Gupta, Mallikarjuna Annigeri and Sharan M.
@@ -162,5 +160,5 @@ Github : https://github.com/vinitkr567
 Akshay Jagtap
 Github : https://github.com/akshayjagtap1111
 Vikas Gupta
-Github : https://github.com/Noddy952001
+Github : https://github.com/Noddy952001 -->
 
