@@ -1,5 +1,5 @@
 <h1>NINE WEST</h1>
-Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScript Tool only. We have created the Clone website of NineWest.com. out Team Name is "Team- NINEWEST" and we are 6 members but only 3 people worked on it Rishabh Gupta, Mallikarjuna Annigeri and Sharan M.
+Basically We have built the E-Commerce Website using pure HTMl, CSS and JavaScript Tool only. We have created the Clone website of NineWest.com. out Team Name is "Team- NINEWEST" and we are 6 members but only 3 people worked on it Rishabh Gupta, Mallikarjuna Annigeri and Vinit.
 <h3>Features:</h3>
 <ul>
   <li>SignIn / SignUp</li>
